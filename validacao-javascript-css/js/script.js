@@ -21,6 +21,8 @@ button.addEventListener(("click"), function(event) {
     return false;
   }
 
+  // acertando layout
+  // testando
   if (inputCidade.value.trim() === '') {
     pMensagem.textContent = "Campo obrigatório";
     inputCidade.insertAdjacentElement("afterend", pMensagem);
