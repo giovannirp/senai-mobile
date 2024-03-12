@@ -48,7 +48,7 @@ export function CadastroNews() {
     // Limpar os campos do formulário definindo o estado inicial
     setFormState({ ...initilForm });
 
-    fetch('http://localhost:7000/books', requestOptions)
+    fetch('http://localhost:7000/news', requestOptions)
       .then((response) => response.json())
       .then((data) => setFormState(data));
 

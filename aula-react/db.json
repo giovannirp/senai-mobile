@@ -1,44 +1,23 @@
 {
-  "books": [
+  "news": [
     {
-      "id": 1,
+      "id": "1",
       "nome": "O Hamburguer",
       "email": "Alimentação",
       "telefone": 45,
       "createdAt": "2023-01-18T17:26:04.067Z"
     },
     {
-      "id": "9cf1",
+      "id": "d73c",
       "description": "Giovanni",
       "type": "giovanni_ge@hotmail.com",
-      "category": "11 88999",
-      "createdAt": "2024-03-11T19:06:19.202Z"
-    },
-    {
-      "id": "d31e",
-      "description": "Giovanni",
-      "type": "giovanni_ge@hotmail.com",
-      "category": "43243434",
-      "createdAt": "2024-03-11T19:07:57.418"
-    },
-    {
-      "id": "7d95",
-      "description": "Giovanni",
-      "type": "giovanni.ribeiro@sp.senai.br",
-      "category": "343434",
-      "createdAt": "2024-03-11T19:08:09.027Z"
-    },
-    {
-      "id": "2313",
-      "description": "Pedro",
-      "type": "giovanni_ge@hotmail.com",
-      "category": "1112121212",
-      "createdAt": "2024-03-11T19:11:05.786Z"
+      "category": "3233223",
+      "createdAt": "2024-03-12T19:19:51.054Z"
     }
   ],
   "about": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Sobre",
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, praesentium totam cum sapiente architecto atque dolorem repudiandae possimus amet. Ea dolorum nostrum iusto tenetur commodi incidunt unde? Consequuntur, nisi at? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, praesentium totam cum sapiente architecto atque dolorem repudiandae possimus amet. Ea dolorum nostrum iusto tenetur commodi incidunt unde? Consequuntur, nisi at? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, praesentium totam cum sapiente architecto atque dolorem repudiandae possimus amet. Ea dolorum nostrum iusto tenetur commodi incidunt unde? Consequuntur, nisi at? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, praesentium totam cum sapiente architecto atque dolorem repudiandae possimus amet. Ea dolorum nostrum iusto tenetur commodi incidunt unde? Consequuntur, nisi at? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, praesentium totam cum sapiente architecto atque dolorem repudiandae possimus amet. Ea dolorum nostrum iusto tenetur commodi incidunt unde? Consequuntur, nisi at?"
     }
