@@ -1,0 +1,7 @@
+npx json-server db.json --port 7000
+
+
+npx é um utilitário do Node.js que permite executar pacotes Node.js
+ sem precisar instalá-los globalmente no seu sistema. Ele baixa e executa
+  temporariamente pacotes necessários para o projeto, o que é útil 
+  para evitar a instalação global de pacotes que você pode usar ocasionalmente.
