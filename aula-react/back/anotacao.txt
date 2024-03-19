@@ -1,8 +1,5 @@
 npx json-server db.json --port 7000
 
-instalando rotas
-npm i react-router-dom
-
 
 npx é um utilitário do Node.js que permite executar pacotes Node.js
  sem precisar instalá-los globalmente no seu sistema. Ele baixa e executa

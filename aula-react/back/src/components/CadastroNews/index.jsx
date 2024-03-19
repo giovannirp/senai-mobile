@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./style.css";
 
 //boockStore/src/pages/RegistrationBooks
 
@@ -31,9 +30,9 @@ export function CadastroNews() {
     event.preventDefault();
 
     const formGeneral = {
-      nome: formState.nome,
-      email: formState.email,
-      telefone: formState.telefone,
+      description: formState.nome,
+      type: formState.email,
+      category: formState.telefone,
       createdAt: new Date(),
     }
 
@@ -46,13 +45,14 @@ export function CadastroNews() {
     }
 
     
+    // Limpar os campos do formulário definindo o estado inicial
+   
 
-
-    fetch('http://localhost:7000/books', requestOptions)
+    fetch('http://localhost:7000/news', requestOptions)
       .then((response) => response.json())
       .then((data) => {
-            // Limpar os campos do formulário definindo o estado inicial
-          setFormState({ ...initilForm });
+        // setFormState(data)
+        setFormState({ ...initilForm });
       });
 
     // Exibir os valores atuais do estado do formulário no console
@@ -104,10 +104,14 @@ export function CadastroNews() {
           />
         </div>
 
-        <div className="form-control">
+        <div>
           <button type="submit">Enviar</button>
         </div>
       </form>
+
+      <div onClick={exemploTarget}>
+          <button>Clique Aqui</button>
+        </div>
     </>
   );
 }
