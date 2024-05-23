@@ -51,7 +51,8 @@ export default function UserList() {
 
 const estilos = StyleSheet.create({
   containerUser: {
-    padding: 20
+    padding: 20,
+    width: "100%"
   },
   titleHeaderUser: {
     fontSize: 20,
