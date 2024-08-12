@@ -14,20 +14,10 @@ const Card = () => {
       link: "#",
     },
     {
-        title: "Card 2",
-        description: "Este é o segundo card.",
+        title: "Card 3",
+        description: "Este é o terceiro card.",
         link: "#",
-      },
-      {
-        title: "Card 2",
-        description: "Este é o segundo card.",
-        link: "#",
-      },
-      {
-        title: "Card 2",
-        description: "Este é o segundo card.",
-        link: "#",
-      },
+    },
   ];
   
   return (
