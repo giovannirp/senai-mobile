@@ -1,10 +1,12 @@
-const Banner = (props) => {
-    console.log(props)
+import "./banner.css"
+
+const Banner = ({titulo, subTitulo}) => {
+    console.log(titulo)
 
     return (
-        <div>
-            <h1>{props.titulo}</h1>
-            <h2>{props.subTitulo}</h2>
+        <div className="banner">
+            <h1>{titulo}</h1>
+            <h2>{subTitulo}</h2>
         </div>
     )
 }

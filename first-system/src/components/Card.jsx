@@ -22,13 +22,16 @@ const Card = () => {
   
   return (
     <div className="card-container">
-      {cardsData.map((card, index) => (
-        <div className="card" key={index}>
+      {cardsData.map((card, index) => {
+        console.log(index)
+        return (
+          <div className="card" key={index}>
           <h2>{card.title}</h2>
           <p>{card.description}</p>
           <a href={card.link}>Veja mais</a>
         </div>
-      ))}
+        )
+}     )}
     </div>
   );
 };
