@@ -1,0 +1,1 @@
+npx expo init projeto-new-general --template expo-template-blank
