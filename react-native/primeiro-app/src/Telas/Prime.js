@@ -4,7 +4,7 @@ export default function Prime() {
   return (
     <>
       <View style={estilos.topo}>
-        <Text style={estilos.tituloHeader}>Detalhes do Sistema</Text>
+        <Text style={estilos.tituloHeader}>Detalhes do Sistema teste</Text>
       </View>
 
       <View style={estilos.listaDescricao}>
