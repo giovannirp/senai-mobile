@@ -12,7 +12,7 @@ export default function Header() {
 const estilos = StyleSheet.create({
   topo: {
     width: "100%",
-    height: 150,
+    height: 120,
     backgroundColor: "#FF0000",
     borderBottomWidth: 2, // Largura da borda inferior
     borderBottomColor: "#696969", // Cor da borda inferior

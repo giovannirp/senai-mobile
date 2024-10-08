@@ -1,12 +1,13 @@
 import { useNavigation } from "@react-navigation/native";
 import React from "react";
-import { Button, StyleSheet, Text, View } from "react-native";
+import { Button, ScrollView, StyleSheet, Text, View } from "react-native";
 import Card from "../Components/Card";
 
 export default function Home() {
   const navigation = useNavigation();
   
   return (
+    <ScrollView>
     <View style={styles.container}>
       <Text style={styles.tituloContato}>Seja bem-vindo!</Text>
 
@@ -26,6 +27,8 @@ export default function Home() {
         onPress={() => navigation.navigate('Sobre')} 
       />
     </View>
+    </ScrollView>
+
   );
 }
 
