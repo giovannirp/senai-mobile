@@ -10,5 +10,9 @@ function somar(a, b) {
   function multiplicar(a, b) {
     return a * b;
   }
+
+  function divisao(a, b) {
+    return a / b;
+  }
   
-  module.exports = { somar, subtrair, multiplicar };
+  module.exports = { somar, subtrair, multiplicar, divisao };
