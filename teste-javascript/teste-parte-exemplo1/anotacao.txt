@@ -1,9 +1,0 @@
-test(): É uma função do Jest que define um teste.
-
-O primeiro argumento é o nome do teste, 
-e o segundo é uma função que contém a lógica do teste.
-
-expect(): Verifica o valor esperado.
-.toBe(): Compara o valor recebido com o esperado.
-
-npx jest --runTestsByPath ./soma.test.js

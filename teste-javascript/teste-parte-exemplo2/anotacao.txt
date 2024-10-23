@@ -1,7 +1,0 @@
-npm install --save-dev jest
-
-rodar teste 
-npm test
-
-adicionei essa linha pra melhorar mais
-"test": "jest --coverage"
