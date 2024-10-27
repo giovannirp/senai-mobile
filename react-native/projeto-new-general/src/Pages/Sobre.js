@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { View, Text, Alert, StyleSheet, ScrollView } from "react-native";
+import { View, Text, Alert, StyleSheet, ScrollView, Button } from "react-native";
 import axios from "axios";
 
 export default function Sobre() {
@@ -18,6 +18,21 @@ export default function Sobre() {
       });
   };
 
+    // Função para excluir um contato
+    const deleteContato = (id) => {
+      axios
+        .delete(`http://10.0.2.2:3000/contatos/${id}`)
+        .then(() => {
+          // Atualizar a lista de contatos após a exclusão
+          setContatos(contatos.filter((contato) => contato.id !== id));
+          Alert.alert("Sucesso", "Contato excluído com sucesso.");
+        })
+        .catch((error) => {
+          console.error("Erro ao excluir contato:", error);
+          Alert.alert("Erro", "Não foi possível excluir o contato.");
+        });
+    };
+
   // Use o useEffect para buscar dados quando o componente montar
   useEffect(() => {
     fetchContatos();
@@ -33,6 +48,11 @@ export default function Sobre() {
             <View key={index} style={styles.contatoItem}>
               <Text style={styles.contatoNome}>{contato.nome}</Text>
               <Text>{contato.telefone}</Text>
+              <Button
+                title="Excluir"
+                color="red"
+                onPress={() => deleteContato(contato.id)}
+              />
             </View>
           ))
         ) : (
